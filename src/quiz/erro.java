@@ -16,6 +16,8 @@ public class erro extends javax.swing.JFrame {
      */
     public erro() {
         initComponents();
+        setSize(777, 501);
+        setLocationRelativeTo(this);
     }
 
     /**
@@ -27,17 +29,45 @@ public class erro extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jPanel1 = new javax.swing.JPanel();
+        jLabel1 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
+        jButton1 = new javax.swing.JButton();
+        jButton2 = new javax.swing.JButton();
+
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+
+        jPanel1.setBackground(new java.awt.Color(249, 249, 32));
+        jPanel1.setLayout(null);
+
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/errou2.gif"))); // NOI18N
+        jPanel1.add(jLabel1);
+        jLabel1.setBounds(180, 20, 430, 240);
+
+        jLabel2.setFont(new java.awt.Font("Franklin Gothic Demi", 1, 24)); // NOI18N
+        jLabel2.setText("ERROU!!!");
+        jPanel1.add(jLabel2);
+        jLabel2.setBounds(340, 270, 110, 30);
+
+        jButton1.setFont(new java.awt.Font("Franklin Gothic Demi", 1, 14)); // NOI18N
+        jButton1.setText("TENTAR NOVAMENTE");
+        jPanel1.add(jButton1);
+        jButton1.setBounds(300, 340, 190, 40);
+
+        jButton2.setFont(new java.awt.Font("Franklin Gothic Demi", 1, 14)); // NOI18N
+        jButton2.setText("SAIR");
+        jPanel1.add(jButton2);
+        jButton2.setBounds(300, 410, 190, 40);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 400, Short.MAX_VALUE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 300, Short.MAX_VALUE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
 
         pack();
@@ -79,5 +109,10 @@ public class erro extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton jButton1;
+    private javax.swing.JButton jButton2;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JPanel jPanel1;
     // End of variables declaration//GEN-END:variables
 }
