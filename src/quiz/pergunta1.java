@@ -9,12 +9,12 @@ package quiz;
  *
  * @author Ana Paula
  */
-public class inicio extends javax.swing.JFrame {
+public class pergunta1 extends javax.swing.JFrame {
 
     /**
-     * Creates new form inicio
+     * Creates new form pergunta1
      */
-    public inicio() {
+    public pergunta1() {
         initComponents();
         setSize(777, 501);
         setLocationRelativeTo(this);
@@ -30,44 +30,48 @@ public class inicio extends javax.swing.JFrame {
     private void initComponents() {
 
         jPanel1 = new javax.swing.JPanel();
+        jLabel1 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
         jButton1 = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
-        jLabel2 = new javax.swing.JLabel();
-        jLabel1 = new javax.swing.JLabel();
+        jButton3 = new javax.swing.JButton();
+        jButton4 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
+        jPanel1.setBackground(new java.awt.Color(249, 249, 32));
         jPanel1.setLayout(null);
 
-        jButton1.setFont(new java.awt.Font("Franklin Gothic Demi", 1, 24)); // NOI18N
-        jButton1.setText("JOGAR");
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton1ActionPerformed(evt);
-            }
-        });
-        jPanel1.add(jButton1);
-        jButton1.setBounds(340, 320, 110, 40);
-
-        jButton2.setFont(new java.awt.Font("Franklin Gothic Demi", 1, 24)); // NOI18N
-        jButton2.setText("SAIR");
-        jButton2.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton2ActionPerformed(evt);
-            }
-        });
-        jPanel1.add(jButton2);
-        jButton2.setBounds(340, 400, 110, 40);
-
-        jLabel2.setFont(new java.awt.Font("Franklin Gothic Demi", 1, 80)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel2.setText("BNHA QUIZ");
-        jPanel1.add(jLabel2);
-        jLabel2.setBounds(160, 20, 440, 120);
-
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/inicio1.jpg"))); // NOI18N
+        jLabel1.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel1.setFont(new java.awt.Font("Franklin Gothic Demi", 1, 18)); // NOI18N
+        jLabel1.setText("O ENDEAVOR É ATUALMENTE O HERÓI...");
         jPanel1.add(jLabel1);
-        jLabel1.setBounds(-50, -20, 830, 540);
+        jLabel1.setBounds(210, 30, 470, 50);
+
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/endeavor.jpg"))); // NOI18N
+        jLabel2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        jPanel1.add(jLabel2);
+        jLabel2.setBounds(530, 110, 200, 240);
+
+        jButton1.setFont(new java.awt.Font("Franklin Gothic Demi", 1, 14)); // NOI18N
+        jButton1.setText("Número 1");
+        jPanel1.add(jButton1);
+        jButton1.setBounds(30, 110, 310, 30);
+
+        jButton2.setFont(new java.awt.Font("Franklin Gothic Demi", 1, 14)); // NOI18N
+        jButton2.setText("Número 2");
+        jPanel1.add(jButton2);
+        jButton2.setBounds(30, 170, 310, 30);
+
+        jButton3.setFont(new java.awt.Font("Franklin Gothic Demi", 1, 14)); // NOI18N
+        jButton3.setText("Número 4");
+        jPanel1.add(jButton3);
+        jButton3.setBounds(30, 240, 310, 30);
+
+        jButton4.setFont(new java.awt.Font("Franklin Gothic Demi", 1, 14)); // NOI18N
+        jButton4.setText("Número 3");
+        jPanel1.add(jButton4);
+        jButton4.setBounds(30, 310, 310, 30);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -82,15 +86,6 @@ public class inicio extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-
-    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-        System.exit(0);
-    }//GEN-LAST:event_jButton2ActionPerformed
-
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        new pergunta1().setVisible(true);
-        dispose();
-    }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -109,20 +104,20 @@ public class inicio extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(inicio.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(pergunta1.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(inicio.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(pergunta1.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(inicio.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(pergunta1.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(inicio.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(pergunta1.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new inicio().setVisible(true);
+                new pergunta1().setVisible(true);
             }
         });
     }
@@ -130,6 +125,8 @@ public class inicio extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
+    private javax.swing.JButton jButton3;
+    private javax.swing.JButton jButton4;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JPanel jPanel1;
