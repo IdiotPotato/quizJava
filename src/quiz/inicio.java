@@ -28,17 +28,45 @@ public class inicio extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jPanel1 = new javax.swing.JPanel();
+        jButton1 = new javax.swing.JButton();
+        jButton2 = new javax.swing.JButton();
+        jLabel2 = new javax.swing.JLabel();
+        jLabel1 = new javax.swing.JLabel();
+
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+
+        jPanel1.setLayout(null);
+
+        jButton1.setFont(new java.awt.Font("Franklin Gothic Demi", 1, 24)); // NOI18N
+        jButton1.setText("JOGAR");
+        jPanel1.add(jButton1);
+        jButton1.setBounds(340, 320, 110, 40);
+
+        jButton2.setFont(new java.awt.Font("Franklin Gothic Demi", 1, 24)); // NOI18N
+        jButton2.setText("SAIR");
+        jPanel1.add(jButton2);
+        jButton2.setBounds(340, 400, 110, 40);
+
+        jLabel2.setFont(new java.awt.Font("Franklin Gothic Demi", 1, 80)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel2.setText("BNHA QUIZ");
+        jPanel1.add(jLabel2);
+        jLabel2.setBounds(160, 20, 440, 120);
+
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/inicio1.jpg"))); // NOI18N
+        jPanel1.add(jLabel1);
+        jLabel1.setBounds(-50, -20, 830, 540);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 400, Short.MAX_VALUE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 778, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 300, Short.MAX_VALUE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 502, Short.MAX_VALUE)
         );
 
         pack();
@@ -80,5 +108,10 @@ public class inicio extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton jButton1;
+    private javax.swing.JButton jButton2;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JPanel jPanel1;
     // End of variables declaration//GEN-END:variables
 }
