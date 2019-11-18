@@ -53,7 +53,7 @@ public class pergunta2 extends javax.swing.JFrame {
         jLabel1.setFont(new java.awt.Font("Franklin Gothic Demi", 1, 18)); // NOI18N
         jLabel1.setText("O QUE ACONTECE QUANDO BAKUGOU UTILIZA SUA EXPLOSÃO MAIS FORTE?");
         jPanel1.add(jLabel1);
-        jLabel1.setBounds(60, 40, 680, 50);
+        jLabel1.setBounds(30, 40, 680, 50);
 
         jButton1.setFont(new java.awt.Font("Franklin Gothic Demi", 1, 14)); // NOI18N
         jButton1.setText("Ele quebra o braço");
