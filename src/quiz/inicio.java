@@ -4,7 +4,9 @@
  * and open the template in the editor.
  */
 package quiz;
-
+import java.applet.Applet;
+import java.applet.AudioClip;
+import java.net.URL;
 /**
  *
  * @author Ana Paula
@@ -19,7 +21,13 @@ public class inicio extends javax.swing.JFrame {
         setSize(777, 501);
         setLocationRelativeTo(this);
     }
-
+  
+    
+  public void inicio(){
+    URL som = getClass().getResource("../som/");
+    AudioClip play = Applet.newAudioClip(som);
+    play.play();
+  }
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
