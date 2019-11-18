@@ -15,7 +15,7 @@ public class Quiz {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-    new inicio().setVisible(true);
+    new inicio().setVisible(true); 
     }
     
 }
