@@ -87,9 +87,10 @@ public class pergunta6 extends javax.swing.JFrame {
         jPanel1.add(jButton4);
         jButton4.setBounds(30, 340, 298, 40);
 
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/baku.jpg"))); // NOI18N
         jLabel2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jPanel1.add(jLabel2);
-        jLabel2.setBounds(581, 199, 123, 88);
+        jLabel2.setBounds(490, 180, 250, 140);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);

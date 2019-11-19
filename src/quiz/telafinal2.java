@@ -41,9 +41,10 @@ public class telafinal2 extends javax.swing.JFrame {
         jPanel1.setBackground(new java.awt.Color(249, 249, 32));
         jPanel1.setLayout(null);
 
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/allmight.jpg"))); // NOI18N
         jLabel1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jPanel1.add(jLabel1);
-        jLabel1.setBounds(30, 20, 120, 110);
+        jLabel1.setBounds(10, 10, 212, 200);
 
         jTextArea1.setColumns(20);
         jTextArea1.setRows(5);
@@ -51,7 +52,7 @@ public class telafinal2 extends javax.swing.JFrame {
         jScrollPane1.setViewportView(jTextArea1);
 
         jPanel1.add(jScrollPane1);
-        jScrollPane1.setBounds(200, 20, 540, 110);
+        jScrollPane1.setBounds(230, 20, 540, 110);
 
         jButton1.setFont(new java.awt.Font("Franklin Gothic Demi", 1, 14)); // NOI18N
         jButton1.setText("PROSSEGUIR");
@@ -65,6 +66,11 @@ public class telafinal2 extends javax.swing.JFrame {
 
         jButton2.setFont(new java.awt.Font("Franklin Gothic Demi", 1, 14)); // NOI18N
         jButton2.setText("PULAR");
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
         jPanel1.add(jButton2);
         jButton2.setBounds(450, 300, 180, 70);
 
@@ -72,11 +78,11 @@ public class telafinal2 extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 777, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 501, Short.MAX_VALUE)
         );
 
         pack();
@@ -86,6 +92,11 @@ public class telafinal2 extends javax.swing.JFrame {
         new telafinal3().setVisible(true);
         dispose();
     }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+       new telafinal0().setVisible(true);
+       dispose();
+    }//GEN-LAST:event_jButton2ActionPerformed
 
     /**
      * @param args the command line arguments

@@ -47,10 +47,10 @@ public class pergunta5 extends javax.swing.JFrame {
         jPanel1.add(jLabel1);
         jLabel1.setBounds(40, 50, 410, 50);
 
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/allmight.jpg"))); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/toshinori.jpg"))); // NOI18N
         jLabel2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jPanel1.add(jLabel2);
-        jLabel2.setBounds(510, 130, 210, 230);
+        jLabel2.setBounds(510, 130, 194, 230);
 
         jButton1.setFont(new java.awt.Font("Franklin Gothic Demi", 1, 14)); // NOI18N
         jButton1.setText("Yagi Toshinori");
@@ -96,11 +96,11 @@ public class pergunta5 extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 777, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 501, Short.MAX_VALUE)
         );
 
         pack();
