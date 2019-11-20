@@ -44,6 +44,7 @@ public class telafinal3 extends javax.swing.JFrame {
         jPanel1.setBackground(new java.awt.Color(249, 249, 32));
         jPanel1.setLayout(null);
 
+        jTextArea1.setEditable(false);
         jTextArea1.setColumns(20);
         jTextArea1.setRows(5);
         jTextArea1.setText("Irei lhe dar um fio de meu cabelo!");

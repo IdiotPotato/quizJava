@@ -46,6 +46,7 @@ public class telafinal2 extends javax.swing.JFrame {
         jPanel1.add(jLabel1);
         jLabel1.setBounds(10, 10, 212, 200);
 
+        jTextArea1.setEditable(false);
         jTextArea1.setColumns(20);
         jTextArea1.setRows(5);
         jTextArea1.setText("Como recompensa por se mostrar digno e ser um verdadeiro fã...");

@@ -20,11 +20,12 @@ public class inicio extends javax.swing.JFrame {
         initComponents();
         setSize(777, 501);
         setLocationRelativeTo(this);
+        inicio();
     }
   
     
   public void inicio(){
-    URL som = getClass().getResource("../som/");
+    URL som = getClass().getResource("../som/som1.wav");
     AudioClip play = Applet.newAudioClip(som);
     play.play();
   }
